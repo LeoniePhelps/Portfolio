@@ -2,14 +2,14 @@ import React from "react";
 
 export const Projects = () => {
   return (
-    <div id="projects" class="pl-20 pr-20 bg-white">
-      <section class="mt-20 flex flex-col items-center">
-        <h1 class="font-workSans font-bold text-5xl flex justify-center mt-10">
+    <div id="projects" class="pr-5 pl-5 pb-20 md:pl-20 md:pr-20 pt-5 bg-white">
+      <section class=" flex flex-col items-center">
+        <h1 class="font-workSans font-bold text-center text-5xl flex justify-center mt-10">
           My recent work
         </h1>
-        <h2 class="font-workSans font-normal flex justify-center mt-5">
-          I love creating projects lol come and have a look at some of the ones
-          I've made below
+        <h2 class="font-workSans font-normal flex justify-center text-center mt-5">
+          I love creating projects come and have a look at some of the ones I've
+          made below
         </h2>
         <a
           href={"https://github.com/LeoniePhelps"}
@@ -21,15 +21,17 @@ export const Projects = () => {
 
       {/* HALLPASS APP */}
 
-      <section class="flex flex-row justify-start mt-20">
+      <section class="flex flex-col md:flex-row justify-start mt-20">
         <img
-          class="h-[420px] w-[580px] shadow-[15px_15px_0px_1px_black]"
+          class="h-[230px] w-[300px] md:h-[420px] md:w-[580px] shadow-[15px_15px_0px_1px_black]"
           src={require("../images/hallpass-app.png")}
           alt="hallpass app homescreen"
         />
-        <article class="ml-20">
-          <h1 class="font-workSans font-bold text-3xl mt-5">Hallpass App</h1>
-          <p class="font-workSans mr-20 mt-8">
+        <article class="md:ml-20">
+          <h1 class="pt-5 md:pt-0 font-workSans font-bold text-3xl mt-5">
+            Hallpass App
+          </h1>
+          <p class="font-workSans md:mr-20 mt-8">
             Full stack React Native application with Cloud Firestore database,
             designed for anyone interested in learning a skill or hobby, and
             trying out equipment. Users are managed with Firebase
@@ -39,7 +41,7 @@ export const Projects = () => {
             lesson, A user can post a review and star rating. Styled with CSS
             and Figma.
           </p>
-          <section class="mt-40">
+          <section class="mt-10 md:mt-40">
             <a
               href={"https://www.youtube.com/watch?v=QcP7aeKNtMc"}
               class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
@@ -58,12 +60,12 @@ export const Projects = () => {
 
       {/* NC NEWS FRONT END */}
 
-      <section class="flex flex-row justify-end mt-20">
-        <article class="mr-20">
-          <h1 class="font-workSans font-bold text-3xl ml-20 mt-5">
+      <section class="flex flex-col-reverse md:flex-row justify-end mt-20">
+        <article class="md:mr-20">
+          <h1 class=" pt-5 md:pt-0 font-workSans font-bold text-3xl md:ml-20 mt-5">
             Nc News React App
           </h1>
-          <p class="font-workSans ml-20 mt-8">
+          <p class="font-workSans md:ml-20 mt-8">
             React web application which serves as the front-end of a news
             website and app. Users can view, sort and filter articles. They can
             also interact with articles by liking or commenting on them. The app
@@ -71,10 +73,10 @@ export const Projects = () => {
             context API. Styled with CSS and Flexbox in a mobile-first approach,
             allowing the app to be responsive.
           </p>
-          <section class="mt-40">
+          <section class="mt-10 md:mt-40">
             <a
               href={"https://github.com/LeoniePhelps/FE-NC-News"}
-              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 ml-20 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
+              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 md:ml-20 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
             >
               REPOSITORY
             </a>
@@ -87,7 +89,7 @@ export const Projects = () => {
           </section>
         </article>
         <img
-          class="h-[420px] w-[580px] shadow-[15px_15px_0px_1px_black]"
+          class="h-[230px] w-[300px] md:h-[420px] md:w-[580px] shadow-[15px_15px_0px_1px_black]"
           src={require("../images/nc-news-app.png")}
           alt="nc news app article screens"
         />
@@ -95,15 +97,17 @@ export const Projects = () => {
 
       {/* NC NEWS BACK END */}
 
-      <section class="flex flex-row justify-start mt-20 pb-20">
+      <section class="flex flex-col md:flex-row justify-start mt-20">
         <img
-          class="h-[420px] w-[580px] shadow-[15px_15px_0px_1px_black]"
+          class="h-[230px] w-[300px] md:h-[420px] md:w-[580px] shadow-[15px_15px_0px_1px_black]"
           src={require("../images/nc-news-api.png")}
-          alt="nc news api code"
+          alt="nc news back end api"
         />
-        <article class="ml-20">
-          <h1 class="font-workSans font-bold text-3xl mt-5">Nc News API</h1>
-          <p class="font-workSans mr-20 mt-8">
+        <article class="md:ml-20">
+          <h1 class="pt-5 md:pt-0 font-workSans font-bold text-3xl mt-5">
+            Nc News API
+          </h1>
+          <p class="font-workSans md:mr-20 mt-8">
             Northcoders news is an API designed as the backend for a news
             website and app. The API allows users to send GET, PATCH, POST and
             DELETE requests to an Express server which interacts with a PSQL
@@ -111,7 +115,7 @@ export const Projects = () => {
             API was created following a test-driven development approach using
             the JEST testing framework.
           </p>
-          <section class="mt-40">
+          <section class="mt-10 md:mt-40">
             <a
               href={"https://github.com/LeoniePhelps/BE-NC-News"}
               class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"

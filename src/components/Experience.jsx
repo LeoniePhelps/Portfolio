@@ -7,7 +7,7 @@ export const Experience = () => {
         My experience and skills
       </h1>
 
-      <div class="flex flex-row">
+      <div class="flex flex-col md:flex-row">
         <article class="bg-white">
           <h1>Back-end</h1>
           <p>Javascript</p>
