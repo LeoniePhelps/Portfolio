@@ -24,7 +24,7 @@ export const Projects = () => {
       <section class="flex flex-col md:flex-row justify-start mt-20">
         <img
           class="h-[230px] w-[300px] md:h-[420px] md:w-[580px] shadow-[15px_15px_0px_1px_black]"
-          src={require("../images/hallpass-app.png")}
+          src={require("../images/hallpass.jpg")}
           alt="hallpass app homescreen"
         />
         <article class="md:ml-20">
@@ -90,7 +90,7 @@ export const Projects = () => {
         </article>
         <img
           class="h-[230px] w-[300px] md:h-[420px] md:w-[580px] shadow-[15px_15px_0px_1px_black]"
-          src={require("../images/nc-news-app.png")}
+          src={require("../images/nc-news-fe.jpg")}
           alt="nc news app article screens"
         />
       </section>
@@ -100,7 +100,7 @@ export const Projects = () => {
       <section class="flex flex-col md:flex-row justify-start mt-20">
         <img
           class="h-[230px] w-[300px] md:h-[420px] md:w-[580px] shadow-[15px_15px_0px_1px_black]"
-          src={require("../images/nc-news-api.png")}
+          src={require("../images/nc-news-api.jpg")}
           alt="nc news back end api"
         />
         <article class="md:ml-20">
