@@ -2,7 +2,7 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <div class="text-white flex-col items-center mt-20 pl-3 pr-3">
+    <div class="text-white flex-col items-center mt-20 pl-40 pr-40">
       <h1 class="text-7xl font-workSans font-extrabold text-center">
         Hi, I'm Leonie
       </h1>
