@@ -43,12 +43,16 @@ export const Projects = () => {
           </p>
           <section class="mt-10 md:mt-40">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href={"https://www.youtube.com/watch?v=QcP7aeKNtMc"}
               class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
             >
               DEMO VIDEO
             </a>
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href={"https://github.com/jamalxwm/hallpass-app"}
               class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
             >
@@ -75,12 +79,16 @@ export const Projects = () => {
           </p>
           <section class="mt-10 md:mt-40">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href={"https://github.com/LeoniePhelps/FE-NC-News"}
               class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 md:ml-20 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
             >
               REPOSITORY
             </a>
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href={"https://leoniephelpsncnews.netlify.app/"}
               class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
             >
@@ -117,12 +125,16 @@ export const Projects = () => {
           </p>
           <section class="mt-10 md:mt-40">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href={"https://github.com/LeoniePhelps/BE-NC-News"}
               class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
             >
               REPOSITORY
             </a>
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href={"https://leonie-phelps-nc-news-be.herokuapp.com/api"}
               class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
             >
