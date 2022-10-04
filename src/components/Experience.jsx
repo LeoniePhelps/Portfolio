@@ -2,7 +2,7 @@ import React from "react";
 
 export const Experience = () => {
   return (
-    <div class="pl-20 pr-20 pt-10 pb-20 bg-[#55E6A5]">
+    <div id="experience" class="pl-20 pr-20 pt-10 pb-20 bg-[#55E6A5]">
       <h1 class="font-workSans font-bold text-5xl flex text-center justify-center">
         My experience and skills
       </h1>

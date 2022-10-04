@@ -2,8 +2,8 @@ import React from "react";
 
 export const Projects = () => {
   return (
-    <div class="pl-20 pr-20 bg-white">
-      <section class="mt-20 flex flex-col">
+    <div id="projects" class="pl-20 pr-20 bg-white">
+      <section class="mt-20 flex flex-col items-center">
         <h1 class="font-workSans font-bold text-5xl flex justify-center mt-10">
           My recent work
         </h1>
@@ -13,7 +13,7 @@ export const Projects = () => {
         </h2>
         <a
           href={"https://github.com/LeoniePhelps"}
-          class="font-workSans flex justify-center mt-10 bg-[#55E6A5] p-3 rounded-3xl w-40 border-2 border-black shadow-[5px_3px_0px_1px_black] active:shadow-[0px_0px_0px_1px_black]"
+          class="font-workSans mt-10 bg-[#55E6A5] p-3 rounded-3xl w-40 border-2 border-black shadow-[5px_3px_0px_1px_black] active:shadow-[0px_0px_0px_1px_black]"
         >
           View my Github
         </a>
