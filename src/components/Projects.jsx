@@ -12,6 +12,8 @@ export const Projects = () => {
           made below
         </h2>
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           href={"https://github.com/LeoniePhelps"}
           class="font-workSans mt-10 bg-[#55E6A5] p-3 rounded-3xl w-40 border-2 border-black shadow-[5px_3px_0px_1px_black] active:shadow-[0px_0px_0px_1px_black]"
         >
