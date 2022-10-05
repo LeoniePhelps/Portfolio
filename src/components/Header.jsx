@@ -6,6 +6,7 @@ export const Header = () => {
       <h1 class="text-7xl font-workSans font-extrabold text-center">
         Hi, I'm Leonie
       </h1>
+
       <h2 class="font-workSans text-center mt-20">
         I decided to become a software developer because I love creative problem
         solving, and am excited to further grow my skills in existing and new
