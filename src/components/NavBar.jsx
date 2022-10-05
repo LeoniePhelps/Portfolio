@@ -1,5 +1,4 @@
 import React from "react";
-import { BsLinkedin } from "react-icons/bs";
 
 export const NavBar = () => {
   return (
@@ -19,15 +18,6 @@ export const NavBar = () => {
       <button onClick={() => window.location.replace("/#contact")}>
         Contact
       </button>
-
-      <a
-        class="text-[#55E6A5] text-4xl"
-        target="_blank"
-        rel="noopener noreferrer"
-        href={"https://www.linkedin.com/in/leonie-phelps-499099223/"}
-      >
-        <BsLinkedin />
-      </a>
     </header>
   );
 };

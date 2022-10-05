@@ -1,8 +1,10 @@
 import React from "react";
-import { SiReact } from "react-icons/si";
+import { SiReact, SiJest, SiExpress, SiExpo } from "react-icons/si";
 import { FiDatabase } from "react-icons/fi";
 import { ImMap2 } from "react-icons/im";
-import { BsChatLeftText } from "react-icons/bs";
+import { BsChatLeftText, BsArrowLeftRight } from "react-icons/bs";
+import { RiCss3Line } from "react-icons/ri";
+import { FaNodeJs } from "react-icons/fa";
 
 export const Projects = () => {
   return (
@@ -32,28 +34,32 @@ export const Projects = () => {
 
       <section class="flex flex-col md:flex-row justify-start mt-10 md:mt-20">
         <img
-          class="h-[230px] w-[300px] md:h-[420px] md:w-[580px] shadow-[15px_15px_0px_1px_black]"
+          class="h-[250px] w-[310px] md:h-[420px] md:w-[580px] shadow-[15px_15px_0px_1px_black]"
           src={require("../images/hallpass.jpg")}
           alt="hallpass app homescreen"
         />
         <article class="md:ml-20">
-          <h1 class="pt-5 md:pt-0 font-workSans font-bold text-3xl mt-5">
+          <h1 class="pt-5 md:pt-0 font-workSans font-bold text-4xl mt-5">
             Hallpass App
           </h1>
           <section class="flex flex-row flex-wrap mt-5">
-            <article class="flex flex-row">
+            <article class="flex flex-row items-center">
               <SiReact />
               <p class="ml-2 mr-4 md:mr-5 font-workSans">React Native</p>
             </article>
-            <article class="flex flex-row">
+            <article class="flex flex-row items-center ">
+              <SiExpo />
+              <p class="ml-2 mr-4 md:mr-5 font-workSans">Expo</p>
+            </article>
+            <article class="flex flex-row items-center ">
               <FiDatabase />
               <p class="ml-2 mr-4 md:mr-5 font-workSans">Firebase</p>
             </article>
-            <article class="flex flex-row">
+            <article class="flex flex-row items-center ">
               <ImMap2 />
               <p class="ml-2 mr-4 md:mr-5 font-workSans">Google Maps API</p>
             </article>
-            <article class="flex flex-row">
+            <article class="flex flex-row items-center ">
               <BsChatLeftText />
               <p class="ml-2 font-workSans">Whereby API</p>
             </article>
@@ -67,37 +73,40 @@ export const Projects = () => {
             before fully committing themselves.
           </p>
 
-          <section class="flex flex-row mt-5">
-            <p class="font-workSans mt-8">
-              team work... my team and I are especially proud of. spiking and
-              utilising new technologies. agile workflow with regular team stand
-              ups to ensure that everyone was confident with their daily tasks.
-              presentation of the finished app.
-            </p>
+          <section class="flex flex-col items-center md:items-start md:flex-row mt-8">
+            <section class="flex flex-col">
+              <p class="font-workSans md:mr-5">
+                team work... my team and I are especially proud of. spiking and
+                utilising new technologies. agile workflow with regular team
+                stand ups to ensure that everyone was confident with their daily
+                tasks. presentation of the finished app. we had 10 days to
+                finish this project and were a dream team.
+              </p>
+
+              <section class="mt-8 mb-8 md:mb-0">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={"https://www.youtube.com/watch?v=oLm7I6P8VuM"}
+                  class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
+                >
+                  DEMO VIDEO
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={"https://github.com/jamalxwm/hallpass-app"}
+                  class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
+                >
+                  REPOSITORY
+                </a>
+              </section>
+            </section>
             <img
-              class="h-[200px] w-[210px] md:h-[200px] md:w-[210px]"
+              class="h-[200px] w-[210px] md:h-[206px] md:w-[240px] shadow-[5px_5px_0px_1px_black]"
               src={require("../images/team.jpg")}
               alt="hallpass app homescreen"
             />
-          </section>
-
-          <section class="mt-10 md:mt-40">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://www.youtube.com/watch?v=oLm7I6P8VuM"}
-              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
-            >
-              DEMO VIDEO
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://github.com/jamalxwm/hallpass-app"}
-              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
-            >
-              REPOSITORY
-            </a>
           </section>
         </article>
       </section>
@@ -106,10 +115,25 @@ export const Projects = () => {
 
       <section class="flex flex-col-reverse md:flex-row justify-end mt-20">
         <article class="md:mr-20">
-          <h1 class=" pt-5 md:pt-0 font-workSans font-bold text-3xl  mt-5">
+          <h1 class=" pt-5 md:pt-0 font-workSans font-bold text-4xl  mt-5">
             Nc News React App
           </h1>
-          <p class="font-workSans mt-8">
+          <section class="flex flex-row flex-wrap mt-5">
+            <article class="flex flex-row items-center">
+              <SiReact />
+              <p class="ml-2 mr-4 md:mr-5 font-workSans">React JS</p>
+            </article>
+            <article class="flex flex-row items-center">
+              <RiCss3Line />
+              <p class="ml-2 mr-4 md:mr-5 font-workSans">CSS</p>
+            </article>
+            <article class="flex flex-row items-center">
+              <BsArrowLeftRight />
+              <p class="ml-2 mr-4 md:mr-5 font-workSans">Flexbox</p>
+            </article>
+          </section>
+
+          <p class="font-workSans mt-5">
             React web application which serves as the front-end of a news
             website and app. Users can view, sort and filter articles. They can
             also interact with articles by liking or commenting on them. The app
@@ -122,7 +146,7 @@ export const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
               href={"https://github.com/LeoniePhelps/FE-NC-News"}
-              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 md:ml-20 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
+              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
             >
               REPOSITORY
             </a>
@@ -137,7 +161,7 @@ export const Projects = () => {
           </section>
         </article>
         <img
-          class="h-[230px] w-[300px] md:h-[420px] md:w-[580px] shadow-[15px_15px_0px_1px_black]"
+          class="h-[250px] w-[310px] md:h-[420px] md:w-[580px] shadow-[15px_15px_0px_1px_black]"
           src={require("../images/nc-news-fe.jpg")}
           alt="nc news app article screens"
         />
@@ -147,15 +171,35 @@ export const Projects = () => {
 
       <section class="flex flex-col md:flex-row justify-start mt-20">
         <img
-          class="h-[230px] w-[300px] md:h-[420px] md:w-[580px] shadow-[15px_15px_0px_1px_black]"
+          class="h-[250px] w-[310px] md:h-[420px] md:w-[580px] shadow-[15px_15px_0px_1px_black]"
           src={require("../images/nc-news-api.jpg")}
           alt="nc news back end api"
         />
         <article class="md:ml-20">
-          <h1 class="pt-5 md:pt-0 font-workSans font-bold text-3xl mt-5">
+          <h1 class="pt-5 md:pt-0 font-workSans font-bold text-4xl mt-5">
             Nc News API
           </h1>
-          <p class="font-workSans mt-8">
+
+          <section class="flex flex-row flex-wrap mt-5">
+            <article class="flex flex-row items-center">
+              <FaNodeJs />
+              <p class="ml-2 mr-4 md:mr-5 font-workSans">Node.js</p>
+            </article>
+            <article class="flex flex-row items-center">
+              <FiDatabase />
+              <p class="ml-2 mr-4 md:mr-5 font-workSans">PostgreSQL</p>
+            </article>
+            <article class="flex flex-row items-center">
+              <SiExpress />
+              <p class="ml-2 mr-4 md:mr-5 font-workSans">Express</p>
+            </article>
+            <article class="flex flex-row items-center">
+              <SiJest />
+              <p class="ml-2 mr-4 md:mr-5 font-workSans">Jest</p>
+            </article>
+          </section>
+
+          <p class="font-workSans mt-5">
             Northcoders news is an API designed as the backend for a news
             website and app. The API allows users to send GET, PATCH, POST and
             DELETE requests to an Express server which interacts with a PSQL
