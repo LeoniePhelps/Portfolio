@@ -75,12 +75,13 @@ export const Projects = () => {
 
           <section class="flex flex-col items-center md:items-start md:flex-row mt-8">
             <section class="flex flex-col">
-              <p class="font-workSans md:mr-5">
-                team work... my team and I are especially proud of. spiking and
-                utilising new technologies. agile workflow with regular team
-                stand ups to ensure that everyone was confident with their daily
-                tasks. presentation of the finished app. we had 10 days to
-                finish this project and were a dream team.
+              <p class="font-workSans md:mr-9">
+                Our dream team had the perfect balance of technical skill,
+                creativity and excitement to create a project that we are
+                extremely proud of in 10 days. We spiked new technologies for
+                this project, and decided to use React Native out of curiosity
+                for app development, and Firebase following advice that a NoSQL
+                database would suit Hallpass best.
               </p>
 
               <section class="mt-8 mb-8 md:mb-0">
