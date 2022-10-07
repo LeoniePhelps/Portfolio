@@ -2,5 +2,5 @@
   background: url(./images/gradient.png);
   background-size: cover;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background-clip: text;
 }
