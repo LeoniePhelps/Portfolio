@@ -73,15 +73,18 @@ export const Projects = () => {
             before fully committing themselves.
           </p>
 
-          <section class="flex flex-col items-center md:items-start md:flex-row mt-8">
+          <section class="flex flex-col items-center md:items-start md:flex-row mt-3">
             <section class="flex flex-col">
-              <p class="font-workSans md:mr-9">
-                Our dream team had the perfect balance of technical skill,
-                creativity and excitement to create a project that we are
-                extremely proud of in 10 days. We spiked new technologies for
-                this project, and decided to use React Native out of curiosity
-                for app development, and Firebase following advice that a NoSQL
-                database would suit Hallpass best.
+              <p class="font-workSans md:mr-6">
+                We spiked new technologies for this project, and decided to use
+                React Native out of curiosity for app development, and Firebase
+                following advice that a NoSQL database would suit Hallpass best.
+              </p>
+              <p class="font-workSans md:mr-9 mt-3">
+                As a team we were passionate about Hallpass and unafraid to get
+                stuck into overcoming problems. With the perfect balance of
+                technical skill and creativity, we were extremely proud of what
+                we achieved in 10 days.
               </p>
 
               <section class="mt-8 mb-8 md:mb-0">
@@ -89,7 +92,7 @@ export const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href={"https://www.youtube.com/watch?v=oLm7I6P8VuM"}
-                  class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
+                  class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1.5 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
                 >
                   DEMO VIDEO
                 </a>
@@ -97,14 +100,14 @@ export const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href={"https://github.com/jamalxwm/hallpass-app"}
-                  class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
+                  class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1.5 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
                 >
                   REPOSITORY
                 </a>
               </section>
             </section>
             <img
-              class="h-[200px] w-[210px] md:h-[206px] md:w-[240px] shadow-[5px_5px_0px_1px_black]"
+              class="h-[200px] w-[210px] md:h-[206px] md:w-[240px] shadow-[5px_5px_0px_1px_black] md:mt-4"
               src={require("../images/team.jpg")}
               alt="hallpass app homescreen"
             />
@@ -135,19 +138,19 @@ export const Projects = () => {
           </section>
 
           <p class="font-workSans mt-5">
-            React web application which serves as the front-end of a news
-            website and app. Users can view, sort and filter articles. They can
-            also interact with articles by liking or commenting on them. The app
-            utilises React Hooks such as useEffect and useState as well as the
-            context API. Styled with CSS and Flexbox in a mobile-first approach,
-            allowing the app to be responsive.
+            React web application which serves as the front-end of a
+            Reddit-style news website and app. Users can view, sort and filter
+            articles. They can also interact with articles by liking or
+            commenting on them. The app utilises React Hooks such as useEffect
+            and useState as well as the context API. Styled with CSS and Flexbox
+            in a mobile-first approach, allowing the app to be responsive.
           </p>
           <section class="mt-10 md:mt-40">
             <a
               target="_blank"
               rel="noopener noreferrer"
               href={"https://github.com/LeoniePhelps/FE-NC-News"}
-              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
+              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1.5 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
             >
               REPOSITORY
             </a>
@@ -155,7 +158,7 @@ export const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
               href={"https://leoniephelpsncnews.netlify.app/"}
-              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
+              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1.5 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
             >
               LIVE VERSION
             </a>
@@ -201,19 +204,19 @@ export const Projects = () => {
           </section>
 
           <p class="font-workSans mt-5">
-            Northcoders news is an API designed as the backend for a news
+            Nc News is an API designed as the backend for a Reddit-style news
             website and app. The API allows users to send GET, PATCH, POST and
             DELETE requests to an Express server which interacts with a PSQL
             database containing articles, comments, users and topics tables. The
             API was created following a test-driven development approach using
-            the JEST testing framework.
+            the Jest testing framework.
           </p>
           <section class="mt-10 md:mt-40">
             <a
               target="_blank"
               rel="noopener noreferrer"
               href={"https://github.com/LeoniePhelps/BE-NC-News"}
-              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
+              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1.5 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
             >
               REPOSITORY
             </a>
@@ -221,7 +224,7 @@ export const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
               href={"https://leonie-phelps-nc-news-be.herokuapp.com/api"}
-              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
+              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1.5 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
             >
               LIVE VERSION
             </a>
