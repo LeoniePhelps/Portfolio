@@ -223,7 +223,7 @@ export const Projects = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href={"https://leonie-phelps-nc-news-be.herokuapp.com/api"}
+              href={"https://be-nc-news-production.up.railway.app/api"}
               class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1.5 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
             >
               LIVE VERSION
