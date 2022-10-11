@@ -87,7 +87,7 @@ export const Projects = () => {
                 we achieved in 10 days.
               </p>
 
-              <section class="mt-8 mb-8 md:mb-0">
+              <section class="mt-10 mb-8 md:mb-0">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -106,11 +106,11 @@ export const Projects = () => {
                 </a>
               </section>
             </section>
-            <img
+            {/* <img
               class="h-[200px] w-[210px] md:h-[206px] md:w-[240px] shadow-[5px_5px_0px_1px_black] md:mt-4"
               src={require("../images/team.jpg")}
               alt="hallpass app homescreen"
-            />
+  />*/}
           </section>
         </article>
       </section>
