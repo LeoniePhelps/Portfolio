@@ -73,39 +73,36 @@ export const Projects = () => {
             before fully committing themselves.
           </p>
 
-          <section class="flex flex-col items-center md:items-start md:flex-row mt-3">
-            <section class="flex flex-col">
-              <p class="font-workSans md:mr-6">
-                We spiked new technologies for this project, and decided to use
-                React Native out of curiosity for app development, and Firebase
-                following advice that a NoSQL database would suit Hallpass best.
-              </p>
-              <p class="font-workSans md:mr-9 mt-3">
-                As a team we were passionate about Hallpass and unafraid to get
-                stuck into overcoming problems. With the perfect balance of
-                technical skill and creativity, we were extremely proud of what
-                we achieved in 10 days.
-              </p>
+          <p class="font-workSans md:mr-6 mt-2">
+            We spiked new technologies for this project, and decided to use
+            React Native out of curiosity for app development, and Firebase
+            following advice that a NoSQL database would suit Hallpass best.
+          </p>
+          <p class="font-workSans md:mr-9 mt-2">
+            As a team we were passionate about Hallpass and unafraid to get
+            stuck into overcoming problems. With the perfect balance of
+            technical skill and creativity, we were extremely proud of what we
+            achieved in 10 days.
+          </p>
 
-              <section class="mt-10 mb-8 md:mb-0">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={"https://www.youtube.com/watch?v=oLm7I6P8VuM"}
-                  class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1.5 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
-                >
-                  DEMO VIDEO
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={"https://github.com/jamalxwm/hallpass-app"}
-                  class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1.5 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
-                >
-                  REPOSITORY
-                </a>
-              </section>
-            </section>
+          <section class="mt-10 mb-8 md:mb-0">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={"https://www.youtube.com/watch?v=oLm7I6P8VuM"}
+              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1.5 pl-2 pr-2 mr-3 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
+            >
+              DEMO VIDEO
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={"https://github.com/jamalxwm/hallpass-app"}
+              class="font-workSans text-[#999999] border-2 border-[#999999] rounded-2xl p-1.5 pl-2 pr-2 hover:bg-[#dcdcdc] hover:border-[#dcdcdc] hover:text-black"
+            >
+              REPOSITORY
+            </a>
+
             {/* <img
               class="h-[200px] w-[210px] md:h-[206px] md:w-[240px] shadow-[5px_5px_0px_1px_black] md:mt-4"
               src={require("../images/team.jpg")}
